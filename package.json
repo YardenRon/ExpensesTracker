@@ -1,0 +1,14 @@
+{
+  "name": "expenses-tracker",
+  "version": "1.0.0",
+  "description": "Track your expenses with google calendar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yarden Ron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
