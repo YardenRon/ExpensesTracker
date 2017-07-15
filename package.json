@@ -9,6 +9,7 @@
   "author": "Yarden Ron",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "winston": "^2.3.1"
   }
 }
