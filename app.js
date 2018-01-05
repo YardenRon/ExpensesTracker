@@ -1,10 +1,10 @@
 const express = require('express');
 const router = require('./appRoutes');
-const config = require('./config');
-const logger = require('./logger');
+const config = require('./config/config');
+const logger = require('./log/logger');
 
 const app = express();
-app.use('/hello', router);
+app.use('/', router);
 
 const port = process.env.port || config.port;
 app.listen(port);
